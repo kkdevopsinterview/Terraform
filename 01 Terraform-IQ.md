@@ -91,8 +91,9 @@ dependencies**.
 
 **Interview Punch Lines**
 
-"Terraform builds infrastructure."\
+"Terraform builds infrastructure."
 "Ansible configures infrastructure."
+
 ------------------------------------------------------------------------
 
 ## **4. What is provider?**
@@ -117,6 +118,7 @@ AWS provider enabling creation of **EC2 instances**.
 
 "Providers connect Terraform to infrastructure APIs."\
 "They enable multi-cloud management."
+
 ------------------------------------------------------------------------
 
 ## **5. What is resource block?**
@@ -142,8 +144,9 @@ Defining a resource block to create a **virtual server**.
 
 **Interview Punch Lines**
 
-"Resource blocks describe infrastructure units."\
+"Resource blocks describe infrastructure units."
 "They define what Terraform should create."
+
 ------------------------------------------------------------------------
 
 ## **6. What is state file?**
@@ -171,8 +174,9 @@ recreating them**.
 
 **Interview Punch Lines**
 
-"State maps configuration to real infrastructure."\
+"State maps configuration to real infrastructure."
 "It enables incremental updates."
+
 ------------------------------------------------------------------------
 
 ## **7. Why state file important?**
@@ -199,8 +203,9 @@ Corrupted state leading to **incorrect infrastructure changes**.
 
 **Interview Punch Lines**
 
-"State is Terraform's source of truth."\
+"State is Terraform's source of truth."
 "It ensures safe infrastructure changes."
+
 ------------------------------------------------------------------------
 
 ## **8. What is terraform init?**
@@ -224,8 +229,9 @@ Running init after **cloning Terraform repository**.
 
 **Interview Punch Lines**
 
-"Init prepares execution environment."\
+"Init prepares execution environment."
 "It installs dependencies."
+
 ------------------------------------------------------------------------
 
 ## **9. terraform plan vs apply?**
@@ -250,8 +256,9 @@ Reviewing changes before applying to **production**.
 
 **Interview Punch Lines**
 
-"Plan previews changes."\
+"Plan previews changes."
 "Apply performs changes."
+
 ------------------------------------------------------------------------
 
 
@@ -276,8 +283,9 @@ Deleting **testing environment** after completion.
 
 **Interview Punch Lines**
 
-"Destroy automates teardown."\
+"Destroy automates teardown."
 "It manages full lifecycle."
+
 ------------------------------------------------------------------------
 
 ## **11. Where is state stored by default?**
@@ -298,8 +306,9 @@ Local state used during development.
 
 **Interview Punch Lines**
 
-"Default state storage is local."\
+"Default state storage is local."
 "Not suitable for team environments."
+
 ------------------------------------------------------------------------
 
 ## **12. What is backend?**
@@ -321,8 +330,9 @@ Centralized state enabling **team deployment workflows**.
 
 **Interview Punch Lines**
 
-"Backend manages state storage."\
+"Backend manages state storage."
 "It enables collaboration."
+
 ------------------------------------------------------------------------
 
 ## **13. Local vs remote backend**
@@ -348,8 +358,9 @@ Team deployments sharing **centralized state**.
 
 **Interview Punch Lines**
 
-"Local for testing."\
+"Local for testing."
 "Remote for production."
+
 ------------------------------------------------------------------------
 
 ## **14. What is .terraform folder?**
@@ -374,8 +385,9 @@ Provider plugins stored locally to **avoid repeated downloads**.
 
 **Interview Punch Lines**
 
-".terraform stores dependencies."\
+".terraform stores dependencies."
 "It supports execution environment."
+
 ------------------------------------------------------------------------
 
 ## **15. What is lock file (.terraform.lock.hcl)?**
@@ -398,5 +410,5 @@ CI/CD pipelines producing **consistent infrastructure**.
 
 **Interview Punch Lines**
 
-"Lock file ensures version consistency."\
+"Lock file ensures version consistency."
 "Prevents unexpected upgrades."
