@@ -31,8 +31,8 @@ load balancers, and databases** automatically using Terraform scripts in
 
 **Interview Punch Lines**
 
-"Terraform automates infrastructure provisioning using code."\
-"It enables reproducible, version-controlled infrastructure."
+Terraform automates infrastructure provisioning using code.
+It enables reproducible, version-controlled infrastructure.
 ------------------------------------------------------------------------
 
 ## **2. What is IaC?**
