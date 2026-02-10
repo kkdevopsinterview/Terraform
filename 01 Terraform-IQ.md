@@ -30,7 +30,6 @@ load balancers, and databases** automatically using Terraform scripts in
 **CI/CD**.
 
 **Interview Punch Lines**
-
 Terraform automates infrastructure provisioning using code.
 It enables reproducible, version-controlled infrastructure.
 ------------------------------------------------------------------------
